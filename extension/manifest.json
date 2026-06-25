@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "AuraTranslate - AI Real-Time Translator",
+  "version": "1.0.0",
+  "description": "Contextual translation of text selections and content inputs powered by Claude AI.",
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "storage",
+    "scripting"
+  ],
+  "host_permissions": [
+    "http://localhost:5065/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}

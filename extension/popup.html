@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    :root {
+      --bg-primary: #0a0b10;
+      --bg-card: rgba(18, 19, 26, 0.95);
+      --border-color: rgba(255, 255, 255, 0.08);
+      --primary: #6366f1;
+      --primary-hover: #4f46e5;
+      --text-primary: #f8fafc;
+      --text-secondary: #94a3b8;
+      --secondary: #10b981;
+    }
+
+    body {
+      width: 380px;
+      margin: 0;
+      padding: 16px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: radial-gradient(circle at 50% 0%, #1e1b4b 0%, var(--bg-primary) 100%);
+      color: var(--text-primary);
+      box-sizing: border-box;
+    }
+
+    h3 {
+      margin: 0 0 12px 0;
+      font-size: 1.15rem;
+      background: linear-gradient(135deg, #fff 0%, #a855f7 50%, #6366f1 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .form-group {
+      margin-bottom: 12px;
+    }
+
+    select, textarea {
+      width: 100%;
+      background: rgba(15, 23, 42, 0.8);
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      color: var(--text-primary);
+      padding: 8px;
+      box-sizing: border-box;
+      outline: none;
+      font-family: inherit;
+    }
+
+    select:focus, textarea:focus {
+      border-color: var(--primary);
+    }
+
+    textarea {
+      height: 80px;
+      resize: none;
+      font-size: 0.9rem;
+      line-height: 1.4;
+    }
+
+    .dropdown-row {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+
+    .dropdown-row select {
+      flex: 1;
+      font-size: 0.85rem;
+    }
+
+    .btn {
+      width: 100%;
+      background: linear-gradient(135deg, var(--primary) 0%, #a855f7 100%);
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 6px;
+      font-weight: 600;
+      cursor: pointer;
+      font-size: 0.95rem;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      filter: brightness(1.1);
+    }
+
+    .btn:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    /* Result Container */
+    .result-container {
+      margin-top: 16px;
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 12px;
+      display: none;
+      animation: fadeIn 0.3s ease-out;
+    }
+
+    .result-title {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      color: var(--primary);
+      font-weight: 700;
+      margin-bottom: 6px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .result-text {
+      font-size: 0.95rem;
+      line-height: 1.4;
+      white-space: pre-wrap;
+      margin-bottom: 8px;
+    }
+
+    .meta-tags {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+      margin-top: 8px;
+    }
+
+    .badge {
+      font-size: 0.7rem;
+      padding: 2px 6px;
+      background: rgba(99, 102, 241, 0.15);
+      border: 1px solid rgba(99, 102, 241, 0.25);
+      border-radius: 4px;
+      color: var(--text-secondary);
+    }
+
+    .badge.success {
+      background: rgba(16, 185, 129, 0.15);
+      border-color: rgba(16, 185, 129, 0.25);
+      color: var(--secondary);
+    }
+
+    .actions-row {
+      display: flex;
+      justify-content: flex-end;
+      gap: 8px;
+      margin-top: 10px;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+      padding-top: 8px;
+    }
+
+    .action-link {
+      font-size: 0.75rem;
+      color: var(--text-secondary);
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .action-link:hover {
+      color: var(--text-primary);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(4px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+  <title>AuraTranslate Popup</title>
+</head>
+<body>
+  <h3>
+    <svg style="width: 18px; height: 18px; fill: var(--primary);" viewBox="0 0 24 24">
+      <path d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"/>
+    </svg>
+    AuraTranslate
+  </h3>
+
+  <div class="dropdown-row">
+    <select id="sourceLang">
+      <option value="Auto-Detect">🔍 Auto Detect</option>
+      <option value="English">English</option>
+      <option value="Spanish">Spanish</option>
+      <option value="French">French</option>
+      <option value="German">German</option>
+      <option value="Italian">Italian</option>
+      <option value="Portuguese">Portuguese</option>
+      <option value="Russian">Russian</option>
+      <option value="Chinese (Simplified)">Chinese (Simplified)</option>
+      <option value="Japanese">Japanese</option>
+      <option value="Korean">Korean</option>
+      <option value="Hindi">Hindi</option>
+      <option value="Gujarati">Gujarati</option>
+      <option value="Arabic">Arabic</option>
+    </select>
+
+    <select id="targetLang">
+      <option value="English">English</option>
+      <option value="Spanish" selected>Spanish</option>
+      <option value="French">French</option>
+      <option value="German">German</option>
+      <option value="Italian">Italian</option>
+      <option value="Portuguese">Portuguese</option>
+      <option value="Russian">Russian</option>
+      <option value="Chinese (Simplified)">Chinese (Simplified)</option>
+      <option value="Japanese">Japanese</option>
+      <option value="Korean">Korean</option>
+      <option value="Hindi">Hindi</option>
+      <option value="Gujarati">Gujarati</option>
+      <option value="Arabic">Arabic</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <textarea id="sourceText" placeholder="Enter text to localize..."></textarea>
+  </div>
+
+  <button id="translateBtn" class="btn">Translate</button>
+
+  <div id="resultContainer" class="result-container">
+    <div class="result-title">
+      <span>Translation</span>
+      <span id="qualityScore" style="color: var(--secondary);">Accuracy: 95%</span>
+    </div>
+    <div id="resultText" class="result-text">...</div>
+    
+    <div class="meta-tags">
+      <span id="toneBadge" class="badge">Tone: Casual</span>
+    </div>
+
+    <div class="actions-row">
+      <span id="copyLink" class="action-link">Copy</span>
+      <span style="color: rgba(255,255,255,0.1)">|</span>
+      <span id="speakLink" class="action-link">Speak</span>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,419 @@
+[
+  {
+    "id": "1782368865884",
+    "original_text": "mare aje task puro karvano che",
+    "translated_text": "Ese trabajo es un verdadero desafío",
+    "source_lang": "Auto-Detect",
+    "target_lang": "Spanish",
+    "context": "Casual",
+    "details": {
+      "alternatives": [
+        "Ese trabajo es muy complicado",
+        "Ese trabajo es un reto puro",
+        "Ese trabajo es un desafío total"
+      ],
+      "formal": "Ese trabajo presenta un desafío considerable",
+      "casual": "Ese trabajo es un rollo",
+      "culture_notes": "La expresión original parece contener elementos de lenguaje informal o coloquial, posiblemente influenciados por el inglés o el español coloquial. La traducción busca mantener un tono casual y accesible.",
+      "idiom_explanation": "La expresión 'mare aje task' se interpreta como 'un trabajo complicado' o 'un desafío', y 'puro karvano che' sugiere un énfasis en la pureza o totalidad del desafío, aunque no es una expresión común en español. Se ha optado por traducir el sentido general en lugar de buscar una traducción literal.",
+      "quality_score": "80"
+    },
+    "favorite": false,
+    "timestamp": "2026-06-25T06:27:45.884Z"
+  },
+  {
+    "id": "1782368873205",
+    "original_text": "mare aje task puro karvano che",
+    "translated_text": "I will complete the task tomorrow",
+    "source_lang": "Auto-Detect",
+    "target_lang": "English",
+    "context": "Casual",
+    "details": {
+      "alternatives": [
+        "I'll finish the task the day after",
+        "The task will be done by tomorrow",
+        "Tomorrow, I will complete the task"
+      ],
+      "formal": "I intend to complete the task by tomorrow",
+      "casual": "I'll get the task done tomorrow",
+      "culture_notes": "The original text appears to be in Gujarati, with 'mare' meaning 'I' or 'my', 'aje' meaning 'today', 'task' remaining the same, 'puro' meaning 'full' or 'complete', 'karvano' meaning 'doing', and 'che' indicating a future action. The translation maintains a casual tone while conveying the speaker's intent to complete the task by the next day.",
+      "idiom_explanation": "N/A",
+      "quality_score": "92"
+    },
+    "favorite": false,
+    "timestamp": "2026-06-25T06:27:53.205Z"
+  },
+  {
+    "id": "1782368894369",
+    "original_text": "mare aaje task puro karvano che",
+    "translated_text": "I have to finish the task today",
+    "source_lang": "Auto-Detect",
+    "target_lang": "English",
+    "context": "Casual",
+    "details": {
+      "alternatives": [
+        "I need to complete the task today",
+        "Today, I have to finish the task",
+        "I've got to finish the task today"
+      ],
+      "formal": "I am required to complete the task by the end of the day",
+      "casual": "Gotta finish this task today",
+      "culture_notes": "The original text appears to be in Gujarati, and the translation aims to preserve the casual tone and sense of urgency. In casual English, it's common to use contractions and colloquial expressions like 'gotta' to convey a similar tone.",
+      "idiom_explanation": "N/A",
+      "quality_score": "92"
+    },
+    "favorite": false,
+    "timestamp": "2026-06-25T06:28:14.369Z"
+  },
+  {
+    "id": "1782369102661",
+    "original_text": "on phrases) Real-time audio translation Glossary builder for specialized terms Translation quality scoring   AI Integration:   Claude API for context-aware translation Real-time processing for accurac",
+    "translated_text": "Real-time audio translation, phrase support, specialized term glossary, and translation quality scoring, all powered by AI through Claude API for context-aware translation and real-time processing for accuracy",
+    "source_lang": "Auto-Detect",
+    "target_lang": "English",
+    "context": "Casual",
+    "details": {
+      "alternatives": [
+        "Features include real-time audio translation, glossary for specialized terms, quality scoring, and AI integration via Claude API for enhanced accuracy",
+        "Real-time translation of audio, phrases, and specialized terms with quality scoring, utilizing Claude API for context-aware translation",
+        "Translation capabilities: real-time audio, phrases, glossary for specialized terms, quality scoring, and AI-powered context-aware translation through Claude API"
+      ],
+      "formal": "The system offers real-time audio translation, a glossary builder for specialized terms, and a translation quality scoring mechanism, all of which are integrated with AI technology via the Claude API to ensure context-aware translation and real-time processing for optimal accuracy",
+      "casual": "It's got real-time audio translation, phrase support, a glossary for specialized terms, and scores translation quality, all thanks to AI and the Claude API for super accurate translations",
+      "culture_notes": "No significant cultural adaptations were necessary for this translation, as the text is largely technical and context-agnostic",
+      "idiom_explanation": "N/A",
+      "quality_score": "96"
+    },
+    "favorite": false,
+    "timestamp": "2026-06-25T06:31:42.661Z"
+  },
+  {
+    "id": "1782369176569",
+    "original_text": "Browser Extension APIs",
+    "translated_text": "Browser Extension APIs",
+    "source_lang": "Auto-Detect",
+    "target_lang": "English",
+    "context": "Casual",
+    "details": {
+      "alternatives": [
+        "APIs for Browser Extensions",
+        "Browser Plugin APIs",
+        "Extension APIs for Browsers"
+      ],
+      "formal": "Application Programming Interfaces for Browser Extensions",
+      "casual": "Browser Extension APIs",
+      "culture_notes": "No significant cultural adaptations needed, as the term is widely recognized in the tech industry across cultures.",
+      "idiom_explanation": "N/A",
+      "quality_score": "100"
+    },
+    "favorite": false,
+    "timestamp": "2026-06-25T06:32:56.569Z"
+  },
+  {
+    "id": "1782369237311",
+    "original_text": "મને રિફંડ જોઈએ છે",
+    "translated_text": "I need a refund",
+    "source_lang": "Auto-Detect",
+    "target_lang": "English",
+    "context": "Casual",
+    "details": {
+      "alternatives": [
+        "I want my money back",
+        "Can I get a refund?",
+        "I'd like to return this"
+      ],
+      "formal": "I would like to request a refund",
+      "casual": "I need my money back",
+      "culture_notes": "In Indian culture, it's common to be direct when requesting a refund, but being polite is also valued. The translation aims to balance directness with politeness.",
+      "idiom_explanation": "N/A",
+      "quality_score": "95"
+    },
+    "favorite": false,
+    "timestamp": "2026-06-25T06:33:57.311Z"
+  },
+  {
+    "id": "1782369584261",
+    "original_text": "आप 7 दिनों के भीतर रिफंड प्राप्त कर सकते हैं।",
+    "translated_text": "You can get a refund within 7 days.",
+    "source_lang": "Auto-Detect",
+    "target_lang": "English",
+    "context": "Casual",
+    "details": {
+      "alternatives": [
+        "You will receive a refund in 7 days or less.",
+        "A refund can be expected within a week.",
+        "Refund will be provided within 7 days."
+      ],
+      "formal": "You are eligible to receive a refund within a period of seven days.",
+      "casual": "You'll get your refund in about a week.",
+      "culture_notes": "In the target language, the phrase is more direct and concise, maintaining a casual tone while conveying the same information.",
+      "idiom_explanation": "N/A",
+      "quality_score": "96"
+    },
+    "favorite": false,
+    "timestamp": "2026-06-25T06:39:44.262Z"
+  },
+  {
+    "id": "1782369723307",
+    "original_text": "आप 7 दिनों के भीतर रिफंड प्राप्त कर सकते हैं।",
+    "translated_text": "You can get a refund within 7 days.",
+    "source_lang": "Auto-Detect",
+    "target_lang": "English",
+    "context": "Casual",
+    "details": {
+      "alternatives": [
+        "You will receive a refund in 7 days or less.",
+        "A refund can be obtained within a week.",
+        "Refunds are available within a 7-day period."
+      ],
+      "formal": "You are eligible to receive a refund within a period of seven days.",
+      "casual": "You'll get your refund in about a week.",
+      "culture_notes": "The translation maintains a neutral tone, suitable for a casual context. However, in some cultures, the mention of a specific timeframe like '7 days' might imply a more formal or contractual agreement.",
+      "idiom_explanation": "N/A",
+      "quality_score": "96"
+    },
+    "favorite": false,
+    "timestamp": "2026-06-25T06:42:03.307Z"
+  },
+  {
+    "id": "1782369751962",
+    "original_text": "आप support@company.com पर ईमेल कर सकते हैं।",
+    "translated_text": "You can email us at support@company.com.",
+    "source_lang": "Auto-Detect",
+    "target_lang": "English",
+    "context": "Casual",
+    "details": {
+      "alternatives": [
+        "Feel free to email support@company.com for assistance.",
+        "For help, you can reach out to us at support@company.com.",
+        "Email support@company.com for any questions or concerns."
+      ],
+      "formal": "Please direct your inquiries to support@company.com.",
+      "casual": "Just shoot us an email at support@company.com.",
+      "culture_notes": "The translation maintains a polite tone suitable for customer support, which is culturally relevant in both the source and target languages.",
+      "idiom_explanation": "N/A",
+      "quality_score": "96"
+    },
+    "favorite": false,
+    "timestamp": "2026-06-25T06:42:31.962Z"
+  },
+  {
+    "id": "1782369867721",
+    "original_text": "आप 7 दिनों के भीतर रिफंड प्राप्त कर सकते हैं।",
+    "translated_text": "You can get a refund within 7 days.",
+    "source_lang": "Auto-Detect",
+    "target_lang": "English",
+    "context": "Casual",
+    "details": {
+      "alternatives": [
+        "You will receive a refund in 7 days or less",
+        "Refund can be obtained within a week",
+        "Get your refund back within 7 days"
+      ],
+      "formal": "You are eligible to receive a refund within a period of seven days.",
+      "casual": "You'll get your refund in about a week",
+      "culture_notes": "In Indian culture, refunds and customer service are highly valued, so the translation maintains a customer-centric tone.",
+      "idiom_explanation": "N/A",
+      "quality_score": "96"
+    },
+    "favorite": false,
+    "timestamp": "2026-06-25T06:44:27.721Z"
+  },
+  {
+    "id": "1782370958188",
+    "original_text": "I need a refund",
+    "translated_text": "मुझे रिफंड चाहिए",
+    "source_lang": "English",
+    "target_lang": "Hindi",
+    "context": "Travel",
+    "details": {
+      "alternatives": [
+        "मैं अपना पैसा वापस चाहता हूँ",
+        "मुझे अपने पैसे लौटा दीजिये",
+        "रिफंड की व्यवस्था करें"
+      ],
+      "formal": "मैं अपनी यात्रा के लिए भुगतान की वापसी का अनुरोध करता हूँ",
+      "casual": "मुझे पैसे वापस चाहिए",
+      "culture_notes": "In Hindi, the tone and language can vary greatly depending on the level of formality and the context. For travel, being polite and courteous is key.",
+      "idiom_explanation": "N/A",
+      "quality_score": "95"
+    },
+    "favorite": false,
+    "timestamp": "2026-06-25T07:02:38.188Z"
+  },
+  {
+    "id": "1782371446075",
+    "original_text": "Departure",
+    "translated_text": "प्रस्थान",
+    "source_lang": "Auto-Detect",
+    "target_lang": "Hindi",
+    "context": "Casual",
+    "details": {
+      "alternatives": [
+        "निर्गमन",
+        "प्रावास",
+        "विदाई"
+      ],
+      "formal": "प्रस्थान",
+      "casual": "चले जाना",
+      "culture_notes": "In Hindi, 'प्रस्थान' is a more formal term for 'departure', while 'चले जाना' is a casual way to express the same idea.",
+      "idiom_explanation": "N/A",
+      "quality_score": "99"
+    },
+    "favorite": false,
+    "timestamp": "2026-06-25T07:10:46.075Z"
+  },
+  {
+    "id": "1782377012215",
+    "original_text": "hamna time  ketlo thayo che?\n",
+    "translated_text": "Don't you have time, how much time do you have?",
+    "source_lang": "Auto-Detect",
+    "target_lang": "English",
+    "context": "Casual",
+    "details": {
+      "alternatives": [
+        "What's up, do you have time?",
+        "How's it going, got some time?",
+        "You don't have time, how long will it take?"
+      ],
+      "formal": "Could you please let me know if you have some time available?",
+      "casual": "Got time?",
+      "culture_notes": "The original text appears to be in Gujarati, a language spoken in India. The casual context has been maintained by using colloquial expressions and slang in the translation.",
+      "idiom_explanation": "The phrase 'hamna time' is an informal way of asking if someone has time, similar to 'got time?' in English.",
+      "quality_score": "92"
+    },
+    "favorite": false,
+    "timestamp": "2026-06-25T08:43:32.215Z"
+  },
+  {
+    "id": "1782377060647",
+    "original_text": "hamna ketla vagya che?\n\n",
+    "translated_text": "What's going on?",
+    "source_lang": "Auto-Detect",
+    "target_lang": "English",
+    "context": "Casual",
+    "details": {
+      "alternatives": [
+        "What's happening?",
+        "How's it going?",
+        "What's up?"
+      ],
+      "formal": "Could you please tell me what is happening?",
+      "casual": "What's going on?",
+      "culture_notes": "The original text appears to be in Gujarati, a language spoken in India. The translation aims to convey a casual, conversational tone.",
+      "idiom_explanation": "N/A",
+      "quality_score": "92"
+    },
+    "favorite": false,
+    "timestamp": "2026-06-25T08:44:20.647Z"
+  },
+  {
+    "id": "1782377119386",
+    "original_text": "અત્યારે કેટલા વાગ્યા છે?",
+    "translated_text": "What time is it now?",
+    "source_lang": "Auto-Detect",
+    "target_lang": "English",
+    "context": "Casual",
+    "details": {
+      "alternatives": [
+        "What's the current time?",
+        "What time is it?",
+        "Can you tell me the time?"
+      ],
+      "formal": "Could you please inform me of the current time?",
+      "casual": "Hey, what's the time?",
+      "culture_notes": "In casual contexts, Indians often use a more direct approach to ask for the time. The translation aims to reflect this cultural nuance.",
+      "idiom_explanation": "N/A",
+      "quality_score": "95"
+    },
+    "favorite": false,
+    "timestamp": "2026-06-25T08:45:19.386Z"
+  },
+  {
+    "id": "1782378106748",
+    "original_text": "You can get a refund within 7 days.",
+    "translated_text": "आप 7 दिनों के भीतर धनवापसी प्राप्त कर सकते हैं",
+    "source_lang": "Auto-Detect",
+    "target_lang": "Hindi",
+    "context": "Formal",
+    "details": {
+      "alternatives": [
+        "आपको 7 दिनों के भीतर पैसे वापस मिल सकते हैं",
+        "7 दिनों के भीतर रिफंड प्राप्त करने की सुविधा है"
+      ],
+      "formal": "आपको ७ दिनों की अवधि के भीतर धनवापसी प्राप्त करने का अधिकार है",
+      "casual": "आप ७ दिन में पैसे वापस पा सकते हैं",
+      "culture_notes": "In Hindi, formal language is often used in official communications, so the translation is adapted to be more formal and polite.",
+      "idiom_explanation": "N/A",
+      "quality_score": "95"
+    },
+    "favorite": false,
+    "timestamp": "2026-06-25T09:01:46.748Z"
+  },
+  {
+    "id": "1782378240870",
+    "original_text": "what's going on",
+    "translated_text": "શું થઈ રહ્યું છે",
+    "source_lang": "English",
+    "target_lang": "Gujarati",
+    "context": "Travel",
+    "details": {
+      "alternatives": [
+        "આજે શું ચાલી રહ્યું છે",
+        "હવે શું થરી રહ્યું છે",
+        "શું વર્તમાન છે"
+      ],
+      "formal": "કૃત્ય પ્રગતિ છે",
+      "casual": "શું ચાલી રહ્યું છે",
+      "culture_notes": "ગુજરાતી સંસ્કૃતિમાં આ પ્રશ્ન સામાન્ય રીતે મિત્રો અથવા પરિવારના સભ્યો વચ્ચે વાતચીતમાં વપરાય છે",
+      "idiom_explanation": "N/A",
+      "quality_score": "95"
+    },
+    "favorite": false,
+    "timestamp": "2026-06-25T09:04:00.870Z"
+  },
+  {
+    "id": "1782378577315",
+    "original_text": "સત્યજીત એક હેન્ડસમ યુવાન- પ્રિયંકા એક શિસ્તબદ્ધ રીતે ઉછરેલી છોકરી- પૂરજોશમાં ચાલી રહેલી પાર્ટી - સત્યજીત અને પ્રિયંકા વચ્ચેની નિકટતા - જૂઠ્ઠું બોલવાની સત્યજીતની આદત.",
+    "translated_text": "Sathyajit is a handsome young man - Priyanka is a well-disciplined girl - a party going on in full swing - the closeness between Sathyajit and Priyanka - Sathyajit's habit of lying",
+    "source_lang": "Auto-Detect",
+    "target_lang": "English",
+    "context": "Casual",
+    "details": {
+      "alternatives": [
+        "Sathyajit, a charming young man, and Priyanka, a girl with good values, find themselves at a lively party, developing a connection, but Sathyajit has a tendency to be dishonest",
+        "A handsome Sathyajit and a well-behaved Priyanka are at a party, where they grow closer, despite Sathyajit's habit of telling lies",
+        "The story of Sathyajit, a good-looking young man, and Priyanka, a disciplined girl, who meet at a party and develop a bond, complicated by Sathyajit's lying"
+      ],
+      "formal": "Sathyajit, a youthful individual with attractive features, and Priyanka, a girl raised with proper discipline, find themselves in a social gathering where a party is in progress, leading to a close relationship between the two, which is, however, marred by Sathyajit's propensity for dishonesty",
+      "casual": "So there's this guy Sathyajit, really handsome, and Priyanka, a girl who's got her life together, at this party that's going wild, and they're getting close, but Sathyajit has this bad habit of lying",
+      "culture_notes": "The translation maintains the casual tone and context of the original text, with adaptations to make it sound natural in English. The cultural nuances of the Indian context, such as the importance of discipline in a girl's upbringing, are preserved.",
+      "idiom_explanation": "N/A, as there are no specific idioms or slang expressions in the original text that require explanation",
+      "quality_score": "92"
+    },
+    "favorite": false,
+    "timestamp": "2026-06-25T09:09:37.315Z"
+  },
+  {
+    "id": "1782378960040",
+    "original_text": "how are you?",
+    "translated_text": "आप कैसे हैं?",
+    "source_lang": "Auto-Detect",
+    "target_lang": "Hindi",
+    "context": "Casual",
+    "details": {
+      "alternatives": [
+        "क्या हाल है?",
+        "आपकी क्या हालात है?",
+        "आप कैसे हो?"
+      ],
+      "formal": "आपकी कुशल कैसे है?",
+      "casual": "क्या हाल है?",
+      "culture_notes": "In casual contexts, 'क्या हाल है?' is often used as a greeting among friends, while 'आप कैसे हैं?' is more formal but still commonly used.",
+      "idiom_explanation": "N/A",
+      "quality_score": "95"
+    },
+    "favorite": false,
+    "timestamp": "2026-06-25T09:16:00.040Z"
+  }
+]
