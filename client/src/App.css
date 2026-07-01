@@ -1009,3 +1009,258 @@ body {
   from, to { color: transparent }
   50% { color: var(--primary); }
 }
+
+/* Layout classes for grouping and responsiveness */
+.lang-select-group {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex: 2;
+  min-width: 280px;
+}
+
+.tone-select {
+  flex: 1;
+  min-width: 150px;
+}
+
+.audio-controls-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 2.5rem;
+  flex-wrap: wrap;
+}
+
+.audio-arrow {
+  font-size: 1.25rem;
+  color: var(--text-muted);
+  padding-top: 1.25rem;
+  transition: var(--transition-smooth);
+}
+
+.mobile-bottom-nav {
+  display: none; /* Hidden on desktop/laptop/tablet */
+}
+
+/* Tablet Layout (max-width: 991px) */
+@media (max-width: 991px) {
+  .navbar {
+    padding: 1rem 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .nav-brand {
+    font-size: 1.35rem;
+  }
+  
+  .nav-item {
+    padding: 0.5rem 0.85rem;
+    font-size: 0.85rem;
+  }
+  
+  .nav-theme-indicator,
+  .nav-stats-divider {
+    display: none; /* Hide theme indicator on tablet to prevent crowding */
+  }
+
+  .nav-stats {
+    padding: 0.4rem 0.75rem;
+    font-size: 0.8rem;
+  }
+  
+  .glossary-grid.wide {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on tablet */
+  }
+}
+
+/* Mobile Layout (max-width: 767px) */
+@media (max-width: 767px) {
+  .app-container {
+    padding: 0 1rem 5.5rem; /* bottom padding to clear the bottom nav bar */
+  }
+  
+  footer {
+    margin-top: 2rem;
+    padding: 0.75rem 0 2rem; /* Add bottom margin to avoid clashing with bottom nav */
+  }
+
+  /* Top Navbar adjustments */
+  .navbar {
+    padding: 0.85rem 1.25rem;
+    margin-top: 0.75rem;
+    margin-bottom: 1.25rem;
+  }
+  
+  .navbar .nav-menu {
+    display: none; /* Hide regular navbar buttons */
+  }
+  
+  .nav-brand {
+    font-size: 1.25rem;
+  }
+
+  .nav-stats {
+    border: none;
+    background: transparent;
+    padding: 0;
+  }
+
+  .nav-stats-translations {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+  }
+
+  /* Mobile Bottom Navigation Bar Styles */
+  .mobile-bottom-nav {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-top: 1px solid var(--border-glass);
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.04);
+    z-index: 1000;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  
+  .mobile-nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    height: 100%;
+    background: transparent;
+    border: none;
+    color: var(--text-secondary);
+    font-family: var(--font-family);
+    font-size: 0.7rem;
+    font-weight: 500;
+    gap: 3px;
+    cursor: pointer;
+    transition: var(--transition-smooth);
+    outline: none;
+  }
+  
+  .mobile-nav-item svg {
+    font-size: 1.2rem;
+  }
+  
+  .mobile-nav-item:hover {
+    color: var(--text-primary);
+  }
+  
+  .mobile-nav-item.active {
+    color: var(--primary);
+    font-weight: 700;
+  }
+
+  /* Controls layout adjustments */
+  .controls-row {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.75rem;
+  }
+
+  .lang-select-group {
+    width: 100%;
+    flex: none;
+  }
+
+  .select-wrapper {
+    flex: 1;
+    width: 100%;
+  }
+
+  .tone-select {
+    width: 100%;
+    flex: none;
+  }
+
+  .translation-textarea {
+    height: 135px; /* Shorter textarea on mobile */
+    font-size: 1rem;
+  }
+
+  .action-bar {
+    margin-top: 1rem;
+  }
+  
+  .action-bar .btn {
+    width: 100%; /* Stretch button to full width */
+  }
+
+  /* Audio Translation Mobile Styles */
+  .audio-panel {
+    padding: 2rem 1rem;
+  }
+
+  .audio-controls-row {
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+  }
+
+  .audio-controls-row .select-wrapper {
+    width: 100%;
+  }
+
+  .audio-controls-row .audio-arrow {
+    transform: rotate(90deg); /* point down */
+    padding-top: 0;
+    margin: 0.25rem 0;
+    align-self: center;
+  }
+
+  .mic-btn {
+    width: 5rem;
+    height: 5rem;
+    font-size: 2rem;
+  }
+
+  /* Translation Card details */
+  .result-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+
+  .score-container {
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .score-header {
+    justify-content: space-between;
+  }
+
+  /* Glossary layout details */
+  .glossary-grid.wide {
+    grid-template-columns: 1fr; /* 1 column on mobile */
+  }
+
+  /* History list items wrapping */
+  .history-meta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+
+  .history-meta > div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

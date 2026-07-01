@@ -415,5 +415,27 @@
     },
     "favorite": false,
     "timestamp": "2026-06-25T09:16:00.040Z"
+  },
+  {
+    "id": "1782386984951",
+    "original_text": "what's going on",
+    "translated_text": "क्या हो रहा है",
+    "source_lang": "Auto-Detect",
+    "target_lang": "Hindi",
+    "context": "Casual",
+    "details": {
+      "alternatives": [
+        "क्या चल रहा है",
+        "क्या माजरा है",
+        "क्या हाल है"
+      ],
+      "formal": "क्या हो रहा है",
+      "casual": "क्या चल रहा है",
+      "culture_notes": "In casual Hindi, 'क्या हो रहा है' is a common way to ask 'what's going on'. However, 'क्या चल रहा है' is also widely used and accepted in informal settings.",
+      "idiom_explanation": "N/A",
+      "quality_score": "95"
+    },
+    "favorite": false,
+    "timestamp": "2026-06-25T11:29:44.952Z"
   }
 ]

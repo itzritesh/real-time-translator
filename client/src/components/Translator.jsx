@@ -139,46 +139,48 @@ Quality Score: ${translationResult.quality_score}%`;
         <h2 style={{ marginBottom: '1.25rem', fontSize: '1.35rem', fontWeight: 700 }}>Source Content</h2>
 
         <div className="controls-row">
-          {/* Source Language Select */}
-          <div className="select-wrapper">
-            <select
-              value={sourceLang}
-              onChange={(e) => setSourceLang(e.target.value)}
-              className="custom-select"
-            >
-              <option value="auto">🔍 Auto Detect Language</option>
-              {LANGUAGES.map(lang => (
-                <option key={lang.code} value={lang.code}>{lang.name}</option>
-              ))}
-            </select>
-          </div>
+          <div className="lang-select-group">
+            {/* Source Language Select */}
+            <div className="select-wrapper">
+              <select
+                value={sourceLang}
+                onChange={(e) => setSourceLang(e.target.value)}
+                className="custom-select"
+              >
+                <option value="auto">🔍 Auto Detect Language</option>
+                {LANGUAGES.map(lang => (
+                  <option key={lang.code} value={lang.code}>{lang.name}</option>
+                ))}
+              </select>
+            </div>
 
-          {/* Swap Button */}
-          <button 
-            type="button" 
-            className="swap-btn" 
-            onClick={handleSwap}
-            disabled={sourceLang === 'auto'}
-            title="Swap Languages"
-          >
-            <HiOutlineSwitchHorizontal />
-          </button>
-
-          {/* Target Language Select */}
-          <div className="select-wrapper">
-            <select
-              value={targetLang}
-              onChange={(e) => setTargetLang(e.target.value)}
-              className="custom-select"
+            {/* Swap Button */}
+            <button 
+              type="button" 
+              className="swap-btn" 
+              onClick={handleSwap}
+              disabled={sourceLang === 'auto'}
+              title="Swap Languages"
             >
-              {LANGUAGES.map(lang => (
-                <option key={lang.code} value={lang.code}>{lang.name}</option>
-              ))}
-            </select>
+              <HiOutlineSwitchHorizontal />
+            </button>
+
+            {/* Target Language Select */}
+            <div className="select-wrapper">
+              <select
+                value={targetLang}
+                onChange={(e) => setTargetLang(e.target.value)}
+                className="custom-select"
+              >
+                {LANGUAGES.map(lang => (
+                  <option key={lang.code} value={lang.code}>{lang.name}</option>
+                ))}
+              </select>
+            </div>
           </div>
 
           {/* Context/Tone Select */}
-          <div className="select-wrapper">
+          <div className="select-wrapper tone-select">
             <select
               value={context}
               onChange={(e) => setContext(e.target.value)}

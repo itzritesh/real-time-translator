@@ -154,8 +154,7 @@ export default function AudioTranslator({ onTranslateSuccess, showToast }) {
           Speak into your microphone. AuraTranslate will detect, translate, and read it back to you.
         </p>
 
-        {/* Language Selection Row */}
-        <div className="controls-row" style={{ width: '100%', maxWidth: '600px', marginBottom: '2.5rem' }}>
+        <div className="audio-controls-row">
           <div className="select-wrapper">
             <label className="form-label" style={{ marginBottom: '0.35rem', display: 'block', fontSize: '0.8rem' }}>I Speak:</label>
             <select
@@ -170,7 +169,7 @@ export default function AudioTranslator({ onTranslateSuccess, showToast }) {
             </select>
           </div>
 
-          <div style={{ fontSize: '1.25rem', color: 'var(--text-muted)', paddingTop: '1.25rem' }}>➔</div>
+          <div className="audio-arrow">➔</div>
 
           <div className="select-wrapper">
             <label className="form-label" style={{ marginBottom: '0.35rem', display: 'block', fontSize: '0.8rem' }}>Translate To:</label>
